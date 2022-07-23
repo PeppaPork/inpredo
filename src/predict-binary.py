@@ -8,7 +8,7 @@ from keras.models import Sequential, load_model
 
 img_width, img_height = 150, 150
 model_path = '../src/models/model.h5'
-weights_path = '../src/models/weights'
+weights_path = '../src/models/weights.h5'
 model = load_model(model_path)
 test_path = '../data/validation'
 
